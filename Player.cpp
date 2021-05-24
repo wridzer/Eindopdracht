@@ -14,6 +14,7 @@ Player::~Player() {
 }
 
 void Player::Move() {
+
     // Move right
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
     {
@@ -25,6 +26,7 @@ void Player::Move() {
     {
         posX -= moveSpeed;
     }
+
     // Move up
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
     {
@@ -39,7 +41,7 @@ void Player::Move() {
 }
 
 sf::CircleShape Player::Draw() {
-    sf::CircleShape shape(20.f);
+    sf::CircleShape shape(playerSize);
     shape.setFillColor(sf::Color::Cyan);
     BorderCheck();
     shape.setPosition(posX, posY);

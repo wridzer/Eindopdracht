@@ -6,6 +6,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include "Vector2.h"
+#include "time.h"
 
 
 class Player {
@@ -20,7 +21,7 @@ class Player {
         int playerSize = 20;
         float posX = 200;
         float posY = 200;
-        float moveSpeed = 10;
+        float moveSpeed = 10; // calculate time
         sf::CircleShape shape;
         int wW;
         int wH;
