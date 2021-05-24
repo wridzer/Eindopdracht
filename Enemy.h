@@ -9,22 +9,21 @@
 
 class Enemy {
     public:
-        Enemy(int windowW, int windowH);
+        Enemy(int windowW);
         ~Enemy();
         void Move();
         sf::CircleShape Draw();
         void BorderCheck();
-        Vector2* position = new Vector2(posX, posY);
+        Vector2* position;
+        int enimSize = 10;
 
     private:
-        int enimSize = 10;
         float posX = rand() % 600;
         float posY = -10;
         float moveSpeed = rand() % 10;
         float fallSpeed = rand() % 25;
         sf::CircleShape shape;
         int wW;
-        int wH;
 };
 
 

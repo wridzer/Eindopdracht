@@ -4,9 +4,8 @@
 
 #include "Enemy.h"
 
-Enemy::Enemy(int windowW, int windowH) {
+Enemy::Enemy(int windowW) {
     wW = windowW;
-    wH = windowH;
 }
 
 Enemy::~Enemy() {
@@ -24,6 +23,7 @@ void Enemy::Move() {
     }
     posY += fallSpeed * 0.01;
     posX += moveSpeed * 0.01;
+    position = new Vector2(posX, posY);
 }
 
 sf::CircleShape Enemy::Draw() {

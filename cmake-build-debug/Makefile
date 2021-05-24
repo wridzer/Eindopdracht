@@ -195,6 +195,33 @@ Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Vector2.obj: Vector2.cpp.obj
+
+.PHONY : Vector2.obj
+
+# target to build an object file
+Vector2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj
+.PHONY : Vector2.cpp.obj
+
+Vector2.i: Vector2.cpp.i
+
+.PHONY : Vector2.i
+
+# target to preprocess a source file
+Vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Vector2.cpp.i
+.PHONY : Vector2.cpp.i
+
+Vector2.s: Vector2.cpp.s
+
+.PHONY : Vector2.s
+
+# target to generate assembly for a file
+Vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Vector2.cpp.s
+.PHONY : Vector2.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -237,6 +264,9 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... Vector2.obj
+	@echo ... Vector2.i
+	@echo ... Vector2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

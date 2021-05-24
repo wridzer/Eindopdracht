@@ -16,10 +16,10 @@ class Player {
         void Move();
         sf::CircleShape Draw();
         void BorderCheck();
-        Vector2* position = new Vector2(posX, posY);
+        Vector2* position;
+        int playerSize = 20;
 
     private:
-        int playerSize = 20;
         float posX = 200;
         float posY = 200;
         float moveSpeed = 10; // calculate time

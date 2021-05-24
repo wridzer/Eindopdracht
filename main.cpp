@@ -18,7 +18,7 @@ int main()
 
     //Create enemy
     for (int i = 0; i < enimNumber; ++i) {
-        Enemy* enemy = new Enemy(windowW, windowH);
+        Enemy* enemy = new Enemy(windowW);
         enimList.push_back(*enemy);
     }
 
@@ -41,14 +41,15 @@ int main()
             {
                 enimList.erase(enimList.begin() + i);
             }
+            if (player->position->Distance(*enimList[i].position, player->playerSize, enimList[i].enimSize) < 0){
+                window.close();
+            }
         }
 
         while (enimList.size() < enimNumber) {
-            Enemy* enemy = new Enemy(windowW, windowH);
+            Enemy* enemy = new Enemy(windowW);
             enimList.push_back(*enemy);
         }
-
-        std::cout << player->position << std::endl;
         window.draw(player->Draw());
         window.display();
         window.clear();

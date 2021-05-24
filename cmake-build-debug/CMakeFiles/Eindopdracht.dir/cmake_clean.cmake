@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj"
   "CMakeFiles/Eindopdracht.dir/Player.cpp.obj"
+  "CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj"
   "CMakeFiles/Eindopdracht.dir/main.cpp.obj"
   "Eindopdracht.exe"
   "Eindopdracht.exe.manifest"

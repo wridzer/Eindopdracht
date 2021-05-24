@@ -157,6 +157,9 @@ CMakeFiles/Eindopdracht.dir/Player.cpp.obj: ../Player.cpp
 CMakeFiles/Eindopdracht.dir/Player.cpp.obj: ../Player.h
 CMakeFiles/Eindopdracht.dir/Player.cpp.obj: ../Vector2.h
 
+CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj: ../Vector2.cpp
+CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj: ../Vector2.h
+
 CMakeFiles/Eindopdracht.dir/main.cpp.obj: C:/SFML/include/SFML/Config.hpp
 CMakeFiles/Eindopdracht.dir/main.cpp.obj: C:/SFML/include/SFML/Graphics.hpp
 CMakeFiles/Eindopdracht.dir/main.cpp.obj: C:/SFML/include/SFML/Graphics/BlendMode.hpp

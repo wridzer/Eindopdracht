@@ -48,6 +48,14 @@ float Vector2::Angle() {
     return angle;
 }
 
+float Vector2::Distance(Vector2 other, float sizeSelf, float sizeOther) {
+    float Mx = x - other.GetX();
+    float My = y - other.GetY();
+    float dir = sqrt(std::pow(Mx, 2) + std::pow(My, 2));
+    float dist = dir - sizeSelf - sizeOther;
+    return dist;
+}
+
 Vector2& Vector2::Normalize() {
     x = x / magnitude;
     y = y / magnitude;

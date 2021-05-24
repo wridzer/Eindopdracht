@@ -19,6 +19,7 @@ public:
     float Magnitude();
     Vector2& Normalize();
     float Angle();
+    float Distance(Vector2 other, float sizeSelf, float sizeOther);
 
 private:
     float x;

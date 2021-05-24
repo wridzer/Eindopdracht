@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.cpp" "C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj"
   "C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.cpp" "C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Player.cpp.obj"
+  "C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.cpp" "C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj"
   "C:/Users/Wridzer/CLionProjects/Eindopdracht/main.cpp" "C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

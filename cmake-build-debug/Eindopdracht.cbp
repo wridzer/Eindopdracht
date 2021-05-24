@@ -96,6 +96,12 @@
 		<Unit filename="C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.h">
 			<Option target="Eindopdracht"/>
 		</Unit>
+		<Unit filename="C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.cpp">
+			<Option target="Eindopdracht"/>
+		</Unit>
+		<Unit filename="C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.h">
+			<Option target="Eindopdracht"/>
+		</Unit>
 		<Unit filename="C:/Users/Wridzer/CLionProjects/Eindopdracht/main.cpp">
 			<Option target="Eindopdracht"/>
 		</Unit>

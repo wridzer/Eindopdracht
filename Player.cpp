@@ -7,6 +7,7 @@
 Player::Player(int windowW, int windowH) {
     wW = windowW;
     wH = windowH;
+    Vector2* position = new Vector2(posX, posY);
 }
 
 Player::~Player() {
@@ -38,6 +39,7 @@ void Player::Move() {
     {
         posY += moveSpeed;
     }
+    position = new Vector2(posX, posY);
 }
 
 sf::CircleShape Player::Draw() {

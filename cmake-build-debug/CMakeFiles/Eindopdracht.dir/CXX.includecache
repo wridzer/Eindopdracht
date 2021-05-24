@@ -676,10 +676,6 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.cpp
-Enemy.h
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.h
-
 C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.h
 SFML/Graphics.hpp
 -
@@ -687,10 +683,6 @@ iostream
 -
 Vector2.h
 C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.h
-
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.cpp
-Player.h
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.h
 
 C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.h
 SFML/Graphics.hpp
