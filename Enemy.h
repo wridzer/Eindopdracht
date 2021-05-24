@@ -14,6 +14,7 @@ class Enemy {
         void Move();
         sf::CircleShape Draw();
         void BorderCheck();
+        Vector2* position = new Vector2(posX, posY);
 
     private:
         int enimSize = 10;

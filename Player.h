@@ -16,6 +16,7 @@ class Player {
         void Move();
         sf::CircleShape Draw();
         void BorderCheck();
+        Vector2* position = new Vector2(posX, posY);
 
     private:
         int playerSize = 20;

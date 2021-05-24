@@ -40,13 +40,15 @@ int main()
             if(enimList[i].Draw().getPosition().y > windowH + 10)
             {
                 enimList.erase(enimList.begin() + i);
-            } 
+            }
         }
 
         while (enimList.size() < enimNumber) {
             Enemy* enemy = new Enemy(windowW, windowH);
             enimList.push_back(*enemy);
         }
+
+        std::cout << player->position << std::endl;
         window.draw(player->Draw());
         window.display();
         window.clear();
