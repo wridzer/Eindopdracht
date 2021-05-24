@@ -12,7 +12,7 @@ Enemy::~Enemy() {
 
 }
 
-void Enemy::Move() {
+void Enemy::Move(float dt) {
     if (fallSpeed == 0)
     {
         fallSpeed = rand() % 25;
@@ -21,13 +21,13 @@ void Enemy::Move() {
     {
         moveSpeed = rand() % 10;
     }
-    posY += fallSpeed * 0.01;
-    posX += moveSpeed * 0.01;
+    posY += fallSpeed * dt;
+    posX += moveSpeed * dt;
     position = new Vector2(posX, posY);
 }
 
-sf::CircleShape Enemy::Draw() {
-    Move();
+sf::CircleShape Enemy::Draw(float dt) {
+    Move(dt);
     sf::CircleShape shape(enimSize);
     shape.setFillColor(sf::Color::Red);
     BorderCheck();

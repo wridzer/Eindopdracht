@@ -7,37 +7,36 @@
 Player::Player(int windowW, int windowH) {
     wW = windowW;
     wH = windowH;
-    Vector2* position = new Vector2(posX, posY);
 }
 
 Player::~Player() {
 
 }
 
-void Player::Move() {
+void Player::Move(float dt) {
 
     // Move right
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
     {
-        posX += moveSpeed;
+        posX += moveSpeed * dt;
     }
 
     // Move left
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
     {
-        posX -= moveSpeed;
+        posX -= moveSpeed * dt;
     }
 
     // Move up
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
     {
-        posY -= moveSpeed;
+        posY -= moveSpeed * dt;
     }
 
     // Move down
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
     {
-        posY += moveSpeed;
+        posY += moveSpeed * dt;
     }
     position = new Vector2(posX, posY);
 }

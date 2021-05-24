@@ -2,14 +2,17 @@
 #include "Player.h"
 #include "Vector2.h"
 #include "Enemy.h"
+#include "DeltaTime.h"
 #include <vector>
 
 int main()
 {
+    DeltaTime* deltaTime = new DeltaTime();
+
     //Create window
     int windowW = 640;
     int windowH = 480;
-    int enimNumber = 10;
+    int enimNumber = 5;
     sf::RenderWindow window(sf::VideoMode(windowW, windowH), "pudding met pindakaas smaak");
     std::vector<Enemy> enimList;
 
@@ -25,6 +28,7 @@ int main()
     //Game loop
     while (window.isOpen())
     {
+        deltaTime->UpdateDT();
         sf::Event event;
         while (window.pollEvent(event))
         {
@@ -33,16 +37,16 @@ int main()
             {
                 window.close();
             }
-            player->Move();
+            player->Move(deltaTime->dt);
         }
         for (int i = 0; i < enimList.size(); ++i) {
-            window.draw(enimList[i].Draw());
-            if(enimList[i].Draw().getPosition().y > windowH + 10)
+            window.draw(enimList[i].Draw(deltaTime->dt));
+            if(enimList[i].Draw(deltaTime->dt).getPosition().y > windowH + 10)
             {
                 enimList.erase(enimList.begin() + i);
             }
             if (player->position->Distance(*enimList[i].position, player->playerSize, enimList[i].enimSize) < 0){
-                window.close();
+                std::cout << "HIT" << std::endl;
             }
         }
 

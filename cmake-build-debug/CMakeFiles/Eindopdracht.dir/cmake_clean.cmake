@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.obj"
   "CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj"
   "CMakeFiles/Eindopdracht.dir/Player.cpp.obj"
   "CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj"

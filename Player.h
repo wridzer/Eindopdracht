@@ -13,7 +13,7 @@ class Player {
     public:
         Player(int windowW, int windowH);
         ~Player();
-        void Move();
+        void Move(float dt);
         sf::CircleShape Draw();
         void BorderCheck();
         Vector2* position;
@@ -22,7 +22,7 @@ class Player {
     private:
         float posX = 200;
         float posY = 200;
-        float moveSpeed = 10; // calculate time
+        float moveSpeed = 10000; // calculate time
         sf::CircleShape shape;
         int wW;
         int wH;

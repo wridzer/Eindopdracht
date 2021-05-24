@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Wridzer/CLionProjects/Eindopdracht/DeltaTime.cpp">
+			<Option target="Eindopdracht"/>
+		</Unit>
+		<Unit filename="C:/Users/Wridzer/CLionProjects/Eindopdracht/DeltaTime.h">
+			<Option target="Eindopdracht"/>
+		</Unit>
 		<Unit filename="C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.cpp">
 			<Option target="Eindopdracht"/>
 		</Unit>

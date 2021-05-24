@@ -11,8 +11,8 @@ class Enemy {
     public:
         Enemy(int windowW);
         ~Enemy();
-        void Move();
-        sf::CircleShape Draw();
+        void Move(float dt);
+        sf::CircleShape Draw(float dt);
         void BorderCheck();
         Vector2* position;
         int enimSize = 10;
@@ -20,8 +20,8 @@ class Enemy {
     private:
         float posX = rand() % 600;
         float posY = -10;
-        float moveSpeed = rand() % 10;
-        float fallSpeed = rand() % 25;
+        float moveSpeed = rand() % 5;
+        float fallSpeed = rand() % 10;
         sf::CircleShape shape;
         int wW;
 };

@@ -141,6 +141,33 @@ Eindopdracht/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/build
 .PHONY : Eindopdracht/fast
 
+DeltaTime.obj: DeltaTime.cpp.obj
+
+.PHONY : DeltaTime.obj
+
+# target to build an object file
+DeltaTime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.obj
+.PHONY : DeltaTime.cpp.obj
+
+DeltaTime.i: DeltaTime.cpp.i
+
+.PHONY : DeltaTime.i
+
+# target to preprocess a source file
+DeltaTime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.i
+.PHONY : DeltaTime.cpp.i
+
+DeltaTime.s: DeltaTime.cpp.s
+
+.PHONY : DeltaTime.s
+
+# target to generate assembly for a file
+DeltaTime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.s
+.PHONY : DeltaTime.cpp.s
+
 Enemy.obj: Enemy.cpp.obj
 
 .PHONY : Enemy.obj
@@ -258,6 +285,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Eindopdracht
+	@echo ... DeltaTime.obj
+	@echo ... DeltaTime.i
+	@echo ... DeltaTime.s
 	@echo ... Enemy.obj
 	@echo ... Enemy.i
 	@echo ... Enemy.s

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Wridzer/CLionProjects/Eindopdracht/DeltaTime.cpp" "C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.obj"
   "C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.cpp" "C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj"
   "C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.cpp" "C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Player.cpp.obj"
   "C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.cpp" "C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj"
