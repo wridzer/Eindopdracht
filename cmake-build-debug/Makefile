@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wridz\CLionProjects\Eindopdracht
+CMAKE_SOURCE_DIR = C:\Users\Wridzer\CLionProjects\Eindopdracht
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Wridzer\CLionProjects\Eindopdracht\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Wridzer\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles C:\Users\Wridzer\CLionProjects\Eindopdracht\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Wridzer\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,32 +141,59 @@ Eindopdracht/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/build
 .PHONY : Eindopdracht/fast
 
-cmake_modules/Player.obj: cmake_modules/Player.cpp.obj
+Enemy.obj: Enemy.cpp.obj
 
-.PHONY : cmake_modules/Player.obj
+.PHONY : Enemy.obj
 
 # target to build an object file
-cmake_modules/Player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/cmake_modules/Player.cpp.obj
-.PHONY : cmake_modules/Player.cpp.obj
+Enemy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj
+.PHONY : Enemy.cpp.obj
 
-cmake_modules/Player.i: cmake_modules/Player.cpp.i
+Enemy.i: Enemy.cpp.i
 
-.PHONY : cmake_modules/Player.i
+.PHONY : Enemy.i
 
 # target to preprocess a source file
-cmake_modules/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/cmake_modules/Player.cpp.i
-.PHONY : cmake_modules/Player.cpp.i
+Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
 
-cmake_modules/Player.s: cmake_modules/Player.cpp.s
+Enemy.s: Enemy.cpp.s
 
-.PHONY : cmake_modules/Player.s
+.PHONY : Enemy.s
 
 # target to generate assembly for a file
-cmake_modules/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/cmake_modules/Player.cpp.s
-.PHONY : cmake_modules/Player.cpp.s
+Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
+Player.obj: Player.cpp.obj
+
+.PHONY : Player.obj
+
+# target to build an object file
+Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Player.cpp.obj
+.PHONY : Player.cpp.obj
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Player.cpp.s
+.PHONY : Player.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -204,9 +231,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Eindopdracht
-	@echo ... cmake_modules/Player.obj
-	@echo ... cmake_modules/Player.i
-	@echo ... cmake_modules/Player.s
+	@echo ... Enemy.obj
+	@echo ... Enemy.i
+	@echo ... Enemy.s
+	@echo ... Player.obj
+	@echo ... Player.i
+	@echo ... Player.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -3,7 +3,7 @@ project(Eindopdracht)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Eindopdracht main.cpp Player.cpp Player.h)
+add_executable(Eindopdracht main.cpp Player.cpp Player.h Enemy.cpp Enemy.h)
 
 include_directories(headers C:/SFML/include)
 

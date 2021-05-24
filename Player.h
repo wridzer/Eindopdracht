@@ -4,15 +4,17 @@
 
 #pragma  once
 #include <SFML/Graphics.hpp>
+#include <iostream>
 #include "Vector2.h"
 
 
 class Player {
     public:
-        Player();
+        Player(int windowW, int windowH);
         ~Player();
         void Move();
         sf::CircleShape Draw();
+        void BorderCheck();
 
     private:
         int playerSize = 20;
@@ -20,6 +22,8 @@ class Player {
         float posY = 200;
         float moveSpeed = 10;
         sf::CircleShape shape;
+        int wW;
+        int wH;
 };
 
 

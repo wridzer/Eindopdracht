@@ -4,9 +4,9 @@
 
 #include "Player.h"
 
-Player::Player() {
-    sf::CircleShape shape(20.f);
-    shape.setFillColor(sf::Color::Cyan);
+Player::Player(int windowW, int windowH) {
+    wW = windowW;
+    wH = windowH;
 }
 
 Player::~Player() {
@@ -39,5 +39,28 @@ void Player::Move() {
 }
 
 sf::CircleShape Player::Draw() {
+    sf::CircleShape shape(20.f);
+    shape.setFillColor(sf::Color::Cyan);
+    BorderCheck();
+    shape.setPosition(posX, posY);
+    return shape;
+}
 
+void Player::BorderCheck() {
+    if (posX > wW)
+    {
+        posX = 0.f;
+    }
+    if (posX < 0.f)
+    {
+        posX = wW;
+    }
+    if (posY > wH)
+    {
+        posY = 0.f;
+    }
+    if (posY < 0.f)
+    {
+        posY = wH;
+    }
 }

@@ -10,7 +10,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(windowW, windowH), "pudding met pindakaas smaak");
 
     //Create Player
-    Player* player = new Player();
+    Player* player = new Player(640, 480);
 
 
     //Game loop
@@ -24,29 +24,12 @@ int main()
             {
                 window.close();
             }
+            player->Move();
         }
 
-        window.clear();
         window.draw(player->Draw());
-        player->Draw().setPosition(posX, posY);
         window.display();
-/*
-        if (posX > windowW)
-        {
-            posX = 0.f;
-        }
-        if (posX < 0.f)
-        {
-            posX = windowW;
-        }
-        if (posY > windowH)
-        {
-            posY = 0.f;
-        }
-        if (posY < 0.f)
-        {
-            posY = windowH;
-        }*/
+        window.clear();
     }
 
     return 0;
