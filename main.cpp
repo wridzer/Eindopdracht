@@ -37,7 +37,8 @@ int main()
             {
                 window.close();
             }
-            player->Move(deltaTime->dt);
+            float dest = sf::Mouse::getPosition(window).x;
+            player->Move(deltaTime->dt, dest);
         }
         for (int i = 0; i < enimList.size(); ++i) {
             window.draw(enimList[i].Draw(deltaTime->dt));
@@ -47,6 +48,7 @@ int main()
             }
             if (player->position->Distance(*enimList[i].position, player->playerSize, enimList[i].enimSize) < 0){
                 std::cout << "HIT" << std::endl;
+                enimList.erase(enimList.begin() + i);
             }
         }
 

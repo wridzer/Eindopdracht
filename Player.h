@@ -13,16 +13,16 @@ class Player {
     public:
         Player(int windowW, int windowH);
         ~Player();
-        void Move(float dt);
+        void Move(float dt, float dest);
         sf::CircleShape Draw();
-        void BorderCheck();
         Vector2* position;
         int playerSize = 20;
 
     private:
         float posX = 200;
         float posY = 200;
-        float moveSpeed = 10000; // calculate time
+        float bottemPos = 50;
+        float moveSpeed = 10; // actually its acceleration, higher is slower
         sf::CircleShape shape;
         int wW;
         int wH;

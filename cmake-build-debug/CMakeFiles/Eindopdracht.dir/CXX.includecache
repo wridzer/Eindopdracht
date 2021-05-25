@@ -676,19 +676,47 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.cpp
-Enemy.h
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.h
+C:/Users/wridz/CLionProjects/Eindopdracht/DeltaTime.h
+SFML/Graphics.hpp
+-
 
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.h
+C:/Users/wridz/CLionProjects/Eindopdracht/Enemy.cpp
+Enemy.h
+C:/Users/wridz/CLionProjects/Eindopdracht/Enemy.h
+
+C:/Users/wridz/CLionProjects/Eindopdracht/Enemy.h
 SFML/Graphics.hpp
 -
 iostream
 -
 Vector2.h
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.h
+C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.h
 
-C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.h
+C:/Users/wridz/CLionProjects/Eindopdracht/Player.h
+SFML/Graphics.hpp
+-
+iostream
+-
+Vector2.h
+C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.h
+time.h
+C:/Users/wridz/CLionProjects/Eindopdracht/time.h
+
+C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.h
 cmath
+-
+
+C:/Users/wridz/CLionProjects/Eindopdracht/main.cpp
+SFML/Graphics.hpp
+-
+Player.h
+C:/Users/wridz/CLionProjects/Eindopdracht/Player.h
+Vector2.h
+C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.h
+Enemy.h
+C:/Users/wridz/CLionProjects/Eindopdracht/Enemy.h
+DeltaTime.h
+C:/Users/wridz/CLionProjects/Eindopdracht/DeltaTime.h
+vector
 -
 

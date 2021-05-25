@@ -21,7 +21,7 @@ class Enemy {
         float posX = rand() % 600;
         float posY = -10;
         float moveSpeed = rand() % 5;
-        float fallSpeed = rand() % 10;
+        float fallSpeed = rand() % 25;
         sf::CircleShape shape;
         int wW;
 };

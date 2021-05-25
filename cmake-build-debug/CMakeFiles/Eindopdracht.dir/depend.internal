@@ -76,8 +76,8 @@ CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/Wridzer/CLionProjects/Eindopdracht/DeltaTime.cpp
- C:/Users/Wridzer/CLionProjects/Eindopdracht/DeltaTime.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/DeltaTime.cpp
+ C:/Users/wridz/CLionProjects/Eindopdracht/DeltaTime.h
 CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj
  C:/SFML/include/SFML/Config.hpp
  C:/SFML/include/SFML/Graphics.hpp
@@ -153,9 +153,9 @@ CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.cpp
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.h
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/Enemy.cpp
+ C:/Users/wridz/CLionProjects/Eindopdracht/Enemy.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.h
 CMakeFiles/Eindopdracht.dir/Player.cpp.obj
  C:/SFML/include/SFML/Config.hpp
  C:/SFML/include/SFML/Graphics.hpp
@@ -231,12 +231,12 @@ CMakeFiles/Eindopdracht.dir/Player.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.cpp
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.h
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/Player.cpp
+ C:/Users/wridz/CLionProjects/Eindopdracht/Player.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.h
 CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.cpp
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.cpp
+ C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.h
 CMakeFiles/Eindopdracht.dir/main.cpp.obj
  C:/SFML/include/SFML/Config.hpp
  C:/SFML/include/SFML/Graphics.hpp
@@ -312,8 +312,8 @@ CMakeFiles/Eindopdracht.dir/main.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/Wridzer/CLionProjects/Eindopdracht/DeltaTime.h
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Enemy.h
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Player.h
- C:/Users/Wridzer/CLionProjects/Eindopdracht/Vector2.h
- C:/Users/Wridzer/CLionProjects/Eindopdracht/main.cpp
+ C:/Users/wridz/CLionProjects/Eindopdracht/DeltaTime.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/Enemy.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/Player.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.h
+ C:/Users/wridz/CLionProjects/Eindopdracht/main.cpp
