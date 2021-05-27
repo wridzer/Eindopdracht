@@ -20,9 +20,9 @@ class Player {
 
     private:
         float posX = 200;
-        float posY = 200;
+        float posY = 800;
         float bottemPos = 50;
-        float moveSpeed = 10; // actually its acceleration, higher is slower
+        float moveSpeed = 15; // actually its acceleration, higher is slower
         sf::CircleShape shape;
         int wW;
         int wH;

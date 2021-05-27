@@ -222,6 +222,33 @@ Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Soundmanager.obj: Soundmanager.cpp.obj
+
+.PHONY : Soundmanager.obj
+
+# target to build an object file
+Soundmanager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.obj
+.PHONY : Soundmanager.cpp.obj
+
+Soundmanager.i: Soundmanager.cpp.i
+
+.PHONY : Soundmanager.i
+
+# target to preprocess a source file
+Soundmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.i
+.PHONY : Soundmanager.cpp.i
+
+Soundmanager.s: Soundmanager.cpp.s
+
+.PHONY : Soundmanager.s
+
+# target to generate assembly for a file
+Soundmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.s
+.PHONY : Soundmanager.cpp.s
+
 Vector2.obj: Vector2.cpp.obj
 
 .PHONY : Vector2.obj
@@ -294,6 +321,9 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... Soundmanager.obj
+	@echo ... Soundmanager.i
+	@echo ... Soundmanager.s
 	@echo ... Vector2.obj
 	@echo ... Vector2.i
 	@echo ... Vector2.s

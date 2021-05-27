@@ -13,9 +13,9 @@ Enemy::~Enemy() {
 }
 
 void Enemy::Move(float dt) {
-    if (fallSpeed == 0)
+    if (fallSpeed <= minSpeed)
     {
-        fallSpeed = rand() % 25;
+        fallSpeed = rand() % 50;
     }
     if (moveSpeed == 0)
     {

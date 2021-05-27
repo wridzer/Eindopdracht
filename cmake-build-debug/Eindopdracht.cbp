@@ -102,6 +102,12 @@
 		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Player.h">
 			<Option target="Eindopdracht"/>
 		</Unit>
+		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Soundmanager.cpp">
+			<Option target="Eindopdracht"/>
+		</Unit>
+		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Soundmanager.h">
+			<Option target="Eindopdracht"/>
+		</Unit>
 		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.cpp">
 			<Option target="Eindopdracht"/>
 		</Unit>

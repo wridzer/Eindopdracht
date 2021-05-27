@@ -14,7 +14,6 @@ Player::~Player() {
 }
 
 void Player::Move(float dt, float dest) {
-
     float dist = dest - posX;
     float acc = dist/moveSpeed;
     posX += acc;
