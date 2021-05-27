@@ -3,7 +3,7 @@ project(Eindopdracht)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Eindopdracht main.cpp Player.cpp Player.h Enemy.cpp Enemy.h Vector2.cpp Vector2.h DeltaTime.cpp DeltaTime.h Soundmanager.cpp Soundmanager.h)
+add_executable(Eindopdracht main.cpp Player.cpp Player.h Enemy.cpp Enemy.h Vector2.cpp Vector2.h DeltaTime.cpp DeltaTime.h Soundmanager.cpp Soundmanager.h Score.cpp Score.h TextInput.cpp TextInput.h)
 
 include_directories(headers C:/SFML/include)
 

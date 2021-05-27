@@ -222,6 +222,33 @@ Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Score.obj: Score.cpp.obj
+
+.PHONY : Score.obj
+
+# target to build an object file
+Score.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Score.cpp.obj
+.PHONY : Score.cpp.obj
+
+Score.i: Score.cpp.i
+
+.PHONY : Score.i
+
+# target to preprocess a source file
+Score.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Score.cpp.i
+.PHONY : Score.cpp.i
+
+Score.s: Score.cpp.s
+
+.PHONY : Score.s
+
+# target to generate assembly for a file
+Score.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Score.cpp.s
+.PHONY : Score.cpp.s
+
 Soundmanager.obj: Soundmanager.cpp.obj
 
 .PHONY : Soundmanager.obj
@@ -248,6 +275,33 @@ Soundmanager.s: Soundmanager.cpp.s
 Soundmanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.s
 .PHONY : Soundmanager.cpp.s
+
+TextInput.obj: TextInput.cpp.obj
+
+.PHONY : TextInput.obj
+
+# target to build an object file
+TextInput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/TextInput.cpp.obj
+.PHONY : TextInput.cpp.obj
+
+TextInput.i: TextInput.cpp.i
+
+.PHONY : TextInput.i
+
+# target to preprocess a source file
+TextInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/TextInput.cpp.i
+.PHONY : TextInput.cpp.i
+
+TextInput.s: TextInput.cpp.s
+
+.PHONY : TextInput.s
+
+# target to generate assembly for a file
+TextInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/TextInput.cpp.s
+.PHONY : TextInput.cpp.s
 
 Vector2.obj: Vector2.cpp.obj
 
@@ -321,9 +375,15 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... Score.obj
+	@echo ... Score.i
+	@echo ... Score.s
 	@echo ... Soundmanager.obj
 	@echo ... Soundmanager.i
 	@echo ... Soundmanager.s
+	@echo ... TextInput.obj
+	@echo ... TextInput.i
+	@echo ... TextInput.s
 	@echo ... Vector2.obj
 	@echo ... Vector2.i
 	@echo ... Vector2.s

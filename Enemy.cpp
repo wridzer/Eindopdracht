@@ -19,7 +19,7 @@ void Enemy::Move(float dt) {
     }
     if (moveSpeed == 0)
     {
-        moveSpeed = rand() % 10;
+        moveSpeed = rand() % 50;
     }
     posY += fallSpeed * dt;
     posX += moveSpeed * dt;

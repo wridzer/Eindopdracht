@@ -102,10 +102,22 @@
 		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Player.h">
 			<Option target="Eindopdracht"/>
 		</Unit>
+		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Score.cpp">
+			<Option target="Eindopdracht"/>
+		</Unit>
+		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Score.h">
+			<Option target="Eindopdracht"/>
+		</Unit>
 		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Soundmanager.cpp">
 			<Option target="Eindopdracht"/>
 		</Unit>
 		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Soundmanager.h">
+			<Option target="Eindopdracht"/>
+		</Unit>
+		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/TextInput.cpp">
+			<Option target="Eindopdracht"/>
+		</Unit>
+		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/TextInput.h">
 			<Option target="Eindopdracht"/>
 		</Unit>
 		<Unit filename="C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.cpp">

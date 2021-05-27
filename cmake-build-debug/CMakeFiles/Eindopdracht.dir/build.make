@@ -159,6 +159,34 @@ CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wridz\CLionProjects\Eindopdracht\Soundmanager.cpp -o CMakeFiles\Eindopdracht.dir\Soundmanager.cpp.s
 
+CMakeFiles/Eindopdracht.dir/Score.cpp.obj: CMakeFiles/Eindopdracht.dir/flags.make
+CMakeFiles/Eindopdracht.dir/Score.cpp.obj: CMakeFiles/Eindopdracht.dir/includes_CXX.rsp
+CMakeFiles/Eindopdracht.dir/Score.cpp.obj: ../Score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Eindopdracht.dir/Score.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Eindopdracht.dir\Score.cpp.obj -c C:\Users\wridz\CLionProjects\Eindopdracht\Score.cpp
+
+CMakeFiles/Eindopdracht.dir/Score.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Eindopdracht.dir/Score.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wridz\CLionProjects\Eindopdracht\Score.cpp > CMakeFiles\Eindopdracht.dir\Score.cpp.i
+
+CMakeFiles/Eindopdracht.dir/Score.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Eindopdracht.dir/Score.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wridz\CLionProjects\Eindopdracht\Score.cpp -o CMakeFiles\Eindopdracht.dir\Score.cpp.s
+
+CMakeFiles/Eindopdracht.dir/TextInput.cpp.obj: CMakeFiles/Eindopdracht.dir/flags.make
+CMakeFiles/Eindopdracht.dir/TextInput.cpp.obj: CMakeFiles/Eindopdracht.dir/includes_CXX.rsp
+CMakeFiles/Eindopdracht.dir/TextInput.cpp.obj: ../TextInput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Eindopdracht.dir/TextInput.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Eindopdracht.dir\TextInput.cpp.obj -c C:\Users\wridz\CLionProjects\Eindopdracht\TextInput.cpp
+
+CMakeFiles/Eindopdracht.dir/TextInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Eindopdracht.dir/TextInput.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wridz\CLionProjects\Eindopdracht\TextInput.cpp > CMakeFiles\Eindopdracht.dir\TextInput.cpp.i
+
+CMakeFiles/Eindopdracht.dir/TextInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Eindopdracht.dir/TextInput.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wridz\CLionProjects\Eindopdracht\TextInput.cpp -o CMakeFiles\Eindopdracht.dir\TextInput.cpp.s
+
 # Object files for target Eindopdracht
 Eindopdracht_OBJECTS = \
 "CMakeFiles/Eindopdracht.dir/main.cpp.obj" \
@@ -166,7 +194,9 @@ Eindopdracht_OBJECTS = \
 "CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj" \
 "CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj" \
 "CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.obj" \
-"CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.obj"
+"CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.obj" \
+"CMakeFiles/Eindopdracht.dir/Score.cpp.obj" \
+"CMakeFiles/Eindopdracht.dir/TextInput.cpp.obj"
 
 # External object files for target Eindopdracht
 Eindopdracht_EXTERNAL_OBJECTS =
@@ -177,6 +207,8 @@ Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj
 Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj
 Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.obj
 Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.obj
+Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/Score.cpp.obj
+Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/TextInput.cpp.obj
 Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/build.make
 Eindopdracht.exe: C:/SFML/lib/libsfml-system-d.a
 Eindopdracht.exe: C:/SFML/lib/libsfml-window-d.a
@@ -186,7 +218,7 @@ Eindopdracht.exe: C:/SFML/lib/libsfml-audio-d.a
 Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/linklibs.rsp
 Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/objects1.rsp
 Eindopdracht.exe: CMakeFiles/Eindopdracht.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Eindopdracht.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Eindopdracht.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Eindopdracht.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

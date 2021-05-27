@@ -7,7 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/wridz/CLionProjects/Eindopdracht/DeltaTime.cpp" "C:/Users/wridz/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/DeltaTime.cpp.obj"
   "C:/Users/wridz/CLionProjects/Eindopdracht/Enemy.cpp" "C:/Users/wridz/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Enemy.cpp.obj"
   "C:/Users/wridz/CLionProjects/Eindopdracht/Player.cpp" "C:/Users/wridz/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Player.cpp.obj"
+  "C:/Users/wridz/CLionProjects/Eindopdracht/Score.cpp" "C:/Users/wridz/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Score.cpp.obj"
   "C:/Users/wridz/CLionProjects/Eindopdracht/Soundmanager.cpp" "C:/Users/wridz/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Soundmanager.cpp.obj"
+  "C:/Users/wridz/CLionProjects/Eindopdracht/TextInput.cpp" "C:/Users/wridz/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/TextInput.cpp.obj"
   "C:/Users/wridz/CLionProjects/Eindopdracht/Vector2.cpp" "C:/Users/wridz/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/Vector2.cpp.obj"
   "C:/Users/wridz/CLionProjects/Eindopdracht/main.cpp" "C:/Users/wridz/CLionProjects/Eindopdracht/cmake-build-debug/CMakeFiles/Eindopdracht.dir/main.cpp.obj"
   )

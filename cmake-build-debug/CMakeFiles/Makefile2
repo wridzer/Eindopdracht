@@ -92,12 +92,12 @@ clean: CMakeFiles/Eindopdracht.dir/clean
 CMakeFiles/Eindopdracht.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Eindopdracht.dir\build.make CMakeFiles/Eindopdracht.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Eindopdracht"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Eindopdracht"
 .PHONY : CMakeFiles/Eindopdracht.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Eindopdracht.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Eindopdracht.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wridz\CLionProjects\Eindopdracht\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Eindopdracht.dir/rule
