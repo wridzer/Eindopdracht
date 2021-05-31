@@ -22,9 +22,10 @@ int main()
 
     //Score
     Score* score = new Score;
-    Vector2 scoreTextPos (50, 50);
+    Vector2 scoreTextPos (100, 250);
     sf::Text scoreText;
-    TextInput textChange("0", sf::Color::Yellow, 50, scoreTextPos, scoreText);
+    TextInput textChange("dshdshgdfgfsagsdagfasdgsdgsagsa0", sf::Color::Yellow, 250, scoreTextPos);
+    scoreText = textChange;
 
     //Create Soundmanager
     Soundmanager* sm = new Soundmanager;
