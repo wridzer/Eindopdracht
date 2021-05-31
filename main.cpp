@@ -22,6 +22,9 @@ int main()
 
     //Score
     Score* score = new Score;
+    Vector2 scoreTextPos (50, 50);
+    sf::Text scoreText;
+    TextInput textChange("0", sf::Color::Yellow, 50, scoreTextPos, scoreText);
 
     //Create Soundmanager
     Soundmanager* sm = new Soundmanager;
@@ -80,10 +83,8 @@ int main()
         //Draw player
         window.draw(player->Draw());
         //Print score and add to difficulty
-        std::string scoreTextInput = "Score: " + std::to_string(score->GetScore());
-        Vector2 scoreTextPos (50, 50);
-        TextInput scoreText(scoreTextInput, sf::Color::Yellow, 50, scoreTextPos);
-        window.draw(scoreText.drawText());
+        //sf::Text tekst = scoreText.drawText("Score: " + std::to_string(score->GetScore()));
+        window.draw(scoreText);
         //Die
         if(score->GetScore() < 0)
         {

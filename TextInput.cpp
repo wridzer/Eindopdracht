@@ -4,8 +4,9 @@
 
 #include "TextInput.h"
 
-TextInput::TextInput(std::string text, sf::Color color, int fontSize, Vector2 position)
+TextInput::TextInput(std::string text, sf::Color color, int fontSize, Vector2 position, sf::Text inputText)
 {
+    //sf::Text inputText;
     sf::Font font;
     font.loadFromFile("../Font/Starjhol.ttf");
     inputText.setString(text);
@@ -18,9 +19,9 @@ TextInput::TextInput(std::string text, sf::Color color, int fontSize, Vector2 po
 TextInput::~TextInput() {
 
 }
-
-sf::Text TextInput::drawText()
+/*
+sf::Text TextInput::drawText(std::string stringInput)
 {
-
+    inputText.setString(stringInput);
     return inputText;
-}
+}*/
