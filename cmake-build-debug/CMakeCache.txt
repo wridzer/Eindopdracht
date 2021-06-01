@@ -323,7 +323,7 @@ CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
-CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug
+CMAKE_CACHEFILE_DIR:INTERNAL=C:/Users/Wridzer/CLionProjects/Eindopdracht/cmake-build-debug
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache

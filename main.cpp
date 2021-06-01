@@ -22,10 +22,13 @@ int main()
 
     //Score
     Score* score = new Score;
+<<<<<<< HEAD
     Vector2 scoreTextPos (100, 250);
     sf::Text scoreText;
     TextInput textChange("dshdshgdfgfsagsdagfasdgsdgsagsa0", sf::Color::Yellow, 250, scoreTextPos);
     scoreText = textChange;
+=======
+>>>>>>> parent of 29d6740 (text)
 
     //Create Soundmanager
     Soundmanager* sm = new Soundmanager;
@@ -84,8 +87,10 @@ int main()
         //Draw player
         window.draw(player->Draw());
         //Print score and add to difficulty
-        //sf::Text tekst = scoreText.drawText("Score: " + std::to_string(score->GetScore()));
-        window.draw(scoreText);
+        std::string scoreTextInput = "Score: " + std::to_string(score->GetScore());
+        Vector2 scoreTextPos (50, 50);
+        TextInput scoreText(scoreTextInput, sf::Color::Yellow, 50, scoreTextPos);
+        window.draw(scoreText.drawText());
         //Die
         if(score->GetScore() < 0)
         {
