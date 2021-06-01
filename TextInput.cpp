@@ -22,5 +22,6 @@ TextInput::~TextInput() {
 
 
 sf::Text& TextInput::operator=(const TextInput v2) {
-    return inputText;
+    sf::Text returnText = v2.inputText;
+    return returnText;
 }
