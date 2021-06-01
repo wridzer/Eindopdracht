@@ -24,6 +24,8 @@ int main()
     Score* score = new Score;
     Vector2 scoreTextPos (100, 250);
     sf::Text scoreText;
+    TextInput* changeText = new TextInput("sfsdf", sf::Color::Yellow, 500, scoreTextPos);
+    scoreText = changeText->returnText();
 
     //Create Soundmanager
     Soundmanager* sm = new Soundmanager;

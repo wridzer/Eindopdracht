@@ -4,9 +4,9 @@
 
 #include "TextInput.h"
 
-TextInput::TextInput(std::string text, sf::Color color, int fontSize, Vector2 position, sf::Text inputText)
+TextInput::TextInput(std::string text, sf::Color color, int fontSize, Vector2 position)
 {
-    //sf::Text inputText;
+    sf::Text inputText;
     sf::Font font;
     font.loadFromFile("../Font/Starjhol.ttf");
     inputText.setString(text);
@@ -20,6 +20,7 @@ TextInput::~TextInput() {
 
 }
 
-sf::Text& TextInput::operator=(const TextInput v2) {
-    //return inputText;
+sf::Text TextInput::returnText() {
+    sf::Text returnText = inputText;
+    return returnText;
 }

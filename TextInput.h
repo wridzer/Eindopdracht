@@ -10,11 +10,8 @@
 
 class TextInput {
 public:
-    TextInput(std::string text, sf::Color color, int fontSize, Vector2 position, sf::Text textElement);
+    TextInput(std::string text, sf::Color color, int fontSize, Vector2 position);
     ~TextInput();
-    sf::Text drawText(sf::Text inputText);
-    sf::Text& operator=(const TextInput v2);
-    //sf::Text inputText;
-    sf::Text drawText(std::string stringInput);
-
+    sf::Text returnText();
+    sf::Text inputText;
 };
